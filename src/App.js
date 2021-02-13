@@ -6,8 +6,12 @@ const App = () => {
 
   return(
     <>
-      <Adding numberOne={2} numberTwo={3}/>
-      <Adding numberOne={3} numberTwo={4}/>
+      <div
+        class="divForStyle"
+      >
+        <Adding numberOne={2} numberTwo={3}/>
+        <Adding numberOne={3} numberTwo={4}/>
+      </div>
     </>
   );
 };
